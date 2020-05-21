@@ -1,0 +1,71 @@
+"visuals"
+{
+    "ArmorPhysical"		"-1"
+	"skip_model_combine"		"1"
+		"MagicalResistance"		"25"
+	"MagicalResista2nce"		""
+	"MagicalResista2nce"		""
+
+    "MagicalResista3nce"
+	{
+		"ArmorPhysical"		"-1"
+		"ArmorPhysical"		"-1"
+		"ArmorPhysical"		"-1"
+		"ArmorPhysical"		"-1"
+	}
+	"styles"
+	{
+		"0"
+		{
+			"name"		"#DOTA_Item_Desc_Pudge_Arcana_Base"
+			"skin"		"0"
+			"alternate_icon"		"0"
+		}
+		"1"
+		{
+			"name"		"#DOTA_Item_Desc_Pudge_Arcana_Style1"
+			"skin"		"1"
+			"alternate_icon"		"1"
+			"unlock"
+			{
+				"gem"
+				{
+					"def_index"		"3020"
+					"type_field"		"strange_type"
+				}
+			}
+		}
+	}
+	"asset_modifier"
+	{
+		"type"		"entity_model"
+		"asset"		"npc_dota_hero_pudge"
+		"modifier"		"models/items/pudge/arcana/pudge_arcana_base.vmdl"
+		"unlock"
+		{
+			"gem"
+			{
+				"def_index"		"3020"
+				"type_field"		"strange_type"
+			}
+		}
+		"unlock"
+		{
+			"gem"
+			{
+				"def_index"		"3020"
+				"type_field"		"strange_type"
+			}
+		}
+	}
+	"asset_modifier"
+	{
+		"type"		"healthbar_offset"
+		"offset"		"220"
+	}
+	"asset_modifier"
+	{
+		"type"		"arcana_level"
+		"level"		"1"
+	}
+}
