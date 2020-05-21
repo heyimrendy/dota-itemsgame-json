@@ -63,7 +63,7 @@ def main(file: str) -> bytearray:
 
 
 if __name__ == "__main__":
-    kv_data = main(".\\data\\items_game.txt")
+    kv_data = main(".\\data\\test.txt")
     json.loads(kv_data, object_pairs_hook=join_duplicate_keys)
     # print(
     #     json.dumps(
